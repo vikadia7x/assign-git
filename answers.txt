@@ -1,0 +1,9 @@
+1) Gitignore tells which files should be ignored from the working directory i.e. files which are unimportant to other collaborators. These files are not intended for source control. They are *.class, *.log, *.ctxt, .mtj.tmp/, *.jar, *.war, *.nar, *.ear, *.zip, *.taz.gz ,*.rar and hs_err_pid*.
+
+2) Fast forward in git basically means merging without any conficts or revisions. For example, a test branch was created from master and we performed operations on the test branch. Now if we want to merge the changes to the master and if no other merges have been made to the master (i.e. we have the latest commit from master), merge would be a fast forward. 
+
+3) Master branch contains the main codebase for any program. A project might have multiple people working on it simaltaneously so each would require the code base. Different branches would allow each person to work on a copy of the master code without altering the master code. After a person is finished with work, he could megre it with the master branch depending upon the task. 
+
+4) In a project, we can have only one remote repository. 
+
+  
